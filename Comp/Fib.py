@@ -1,22 +1,22 @@
 def fib(n):
-# starting the fibonacci numbers with 0 and 1
-    first = 0
-    second = 1
-
+    a =0
+    b = 1
     if n == 1:
-        return first
+        return a
     if n == 2:
-        return second
+        return b
     if n < 0:
-        return -1
+        print(-1)
 
-    count =3
+    count = 3
     while count <= n:
-        #creating a variable and storing the sum of first and second number
-        third = first+second
-        first = second
-        second = third
-        count +=1
-        print(third)
-    return third
-(fib (6))
+        c = a + b
+        a = b
+        b = c
+        count += 1
+        print(c)
+    return c
+
+
+
+fib(15)

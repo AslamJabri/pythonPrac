@@ -82,4 +82,4 @@ def fib(n):
         print(c)
     return c
     
-print(fib(15))
+(fib(6))
