@@ -1,5 +1,6 @@
 class Rectangle:
     def __init__(self,length,width):
+        #encapsulation using __ so that the property can be accessed privately
        self.__length = length
        self.__width = width 
 
