@@ -55,15 +55,21 @@ class Calculator:
 
     def add(self):
         return (self.num2+self.num1)
+
     def subtract(self):
         return (self.num2-self.num1)
+
     def multiply(self):
         return (self.num2*self.num1)
+
     def divide(self):
         return (self.num2/self.num1)
+    def sqrt(self):
+        return(self.num2**2 + self.num1**2)
 
 obj = Calculator(10, 94)
 print(obj.add())
 print(obj.subtract())
 print(obj.multiply())
 print(obj.divide())
+print(obj.sqrt())
